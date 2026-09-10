@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio fotográfico com 10 fotografias e técnicas de composição.">
+  <title>Portfólio Fotográfico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <section class="gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">GALERIA FOTOGRÁFICA</p>
+            <h1>Ulisses Henrique<br>Alves Borceda</h1>
+          </div>
+          <p class="section-subtitle">Uma seleção de registros explorando ângulos, enquadramentos e composição. Clique em qualquer imagem para ampliar.</p>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="Filtros da galeria">
+          <button class="filter-button active" data-filter="all">Todas</button>
+          <button class="filter-button" data-filter="angulo">Ângulos</button>
+          <button class="filter-button" data-filter="enquadramento">Enquadramentos</button>
+          <button class="filter-button" data-filter="regra_tercos">Regra dos Terços</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Portfólio Fotográfico</span>
+      <span>HTML • CSS • JavaScript</span>
+    </div>
+  </footer>
+
+  <div class="modal" id="photoModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" aria-label="Fechar imagem" data-close-modal>&times;</button>
+      <img id="modalImage" src="" alt="">
+      <div class="modal-caption">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalTechnique"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
