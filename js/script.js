@@ -68,6 +68,13 @@ const photos = [
     category: "regra_tercos",
     label: "Regra dos Terços",
     technique: "Uso de pontos focais (intersecções entre linhas dos terços) para dar foco ao rosto do objeto"
+  },
+  {
+    file: "dupla expo ulisses.png",
+    title: "Dupla Exeposição",
+    category: "dupla_exposicao",
+    label: "Dupla Exposição",
+    technique: "Técnica de dupla exposição com fotografia no PhotoShop"
   }
 ];
 
@@ -95,7 +102,7 @@ function createCard(photo, index) {
     <div class="photo-info">
       <div class="photo-meta">
         <span>${photo.label}</span>
-        <span>${String(index + 1).padStart(2, "0")}/10</span>
+        <span>${String(index + 1).padStart(2, "0")}/${String(photos.length)}</span>
       </div>
       <h3 class="photo-title">${photo.title}</h3>
       <p class="photo-caption"><strong>Legenda:</strong> [Placeholder para sua legenda.]</p>
