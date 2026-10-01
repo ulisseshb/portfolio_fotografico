@@ -71,10 +71,45 @@ const photos = [
   },
   {
     file: "dupla expo ulisses.png",
-    title: "Dupla Exeposição",
+    title: "Dupla Exposição",
     category: "dupla_exposicao",
     label: "Dupla Exposição",
     technique: "Técnica de dupla exposição com fotografia no PhotoShop"
+  },
+  {
+    file: "espelhos1.jpg",
+    title: "Espelhos e Paisagem 1",
+    category: "espelhos",
+    label: "Espelhos e paisagem",
+    technique: "Fotografia utilizando espelhos de diferentes formatos"
+  },
+  {
+    file: "espelhos2.jpg",
+    title: "Espelhos e Paisagem 2",
+    category: "espelhos",
+    label: "Espelhos e paisagem",
+    technique: "Fotografia utilizando espelhos de diferentes formatos"
+  },
+  {
+    file: "espelhos3.jpg",
+    title: "Espelhos e Paisagem 3",
+    category: "espelhos",
+    label: "Espelhos e paisagem",
+    technique: "Fotografia utilizando espelhos de diferentes formatos"
+  },
+  {
+    file: "lightpaint.jpg",
+    title: "Light Paint",
+    category: "lightpaint",
+    label: "Light Paint",
+    technique: "Foto com obturador lento usando flash do celular, criando efeito de pintar com a luz"
+  },
+  {
+    file: "colagem.png",
+    title: "Fotocolagem",
+    category: "fotocolagem",
+    label: "Fotocolagem",
+    technique: "Edição em photoshop com foto centralizada"
   }
 ];
 
@@ -105,7 +140,6 @@ function createCard(photo, index) {
         <span>${String(index + 1).padStart(2, "0")}/${String(photos.length)}</span>
       </div>
       <h3 class="photo-title">${photo.title}</h3>
-      <p class="photo-caption"><strong>Legenda:</strong> [Placeholder para sua legenda.]</p>
       <p class="photo-caption"><strong>Técnicas:</strong> ${photo.technique}</p>
     </div>
   `;
