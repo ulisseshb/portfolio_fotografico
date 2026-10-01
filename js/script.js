@@ -4,112 +4,154 @@ const photos = [
     title: "Ângulo Central",
     category: "angulo",
     label: "Ângulo",
-    technique: "Foto tirada em ângulo central com os objetos em foco, com cunho profissional"
+    technique: "Foto tirada em ângulo central com os objetos em foco, com cunho profissional."
   },
   {
     file: "angulo_diagonal_cima.JPG",
     title: "Ângulo Diagonal de Cima",
     category: "angulo",
     label: "Ângulo",
-    technique: "Ângulo visto de cima diagonalmente, dando um senso dinâmico à foto"
+    technique: "Ângulo visto de cima diagonalmente, dando um senso dinâmico à foto."
   },
   {
     file: "angulo_diagonal_baixo.JPG",
     title: "Ângulo Diagonal de Baixo",
     category: "angulo",
     label: "Ângulo",
-    technique: "Vista por baixo com um senso de movimento, dando foco ao vaso com flor"
+    technique: "Vista por baixo com um senso de movimento, dando foco ao vaso com flor."
   },
   {
     file: "enquadr_central.JPG",
     title: "Enquadramento Central",
     category: "enquadramento",
     label: "Enquadramento",
-    technique: "Enquadramento central afastado, trazendo um foco menos instrusivo para a foto"
+    technique: "Enquadramento central afastado, trazendo um foco menos instrusivo para a foto."
   },
   {
     file: "enquadr_esquerdo.JPG",
     title: "Enquadramento à Esquerda",
     category: "enquadramento",
     label: "Enquadramento",
-    technique: "Enquadramento esquerdo com os objetos de lado"
+    technique: "Enquadramento esquerdo com os objetos de lado."
   },
   {
     file: "enquadr_direito.JPG",
     title: "Enquadramento à Direita",
     category: "enquadramento",
     label: "Enquadramento",
-    technique: "Enquadramento direito com os objetos virados para a luz"
+    technique: "Enquadramento direito com os objetos virados para a luz."
   },
   {
     file: "vertical.JPG",
     title: "Composição Vertical",
     category: "regra_tercos",
     label: "Regra dos Terços",
-    technique: "Objeto com senso de verticalidade por estar alinhado à segunda linha dos terços"
+    technique: "Objeto com senso de verticalidade por estar alinhado à segunda linha dos terços."
   },
   {
     file: "horizontal.JPG",
     title: "Composição Horizontal",
     category: "regra_tercos",
     label: "Regra dos Terços",
-    technique: "Objeto ocupando o segundo terço horizontal"
+    technique: "Objeto ocupando o segundo terço horizontal."
   },
   {
     file: "quadrantes.JPG",
     title: "Divisão em Quadrantes",
     category: "regra_tercos",
     label: "Regra dos Terços",
-    technique: "Objeto posicionado nos quatro quadrantes direitos mais baixos"
+    technique: "Objeto posicionado nos quatro quadrantes direitos mais baixos."
   },
   {
     file: "ponto_focal.JPG",
     title: "Ponto Focal",
     category: "regra_tercos",
     label: "Regra dos Terços",
-    technique: "Uso de pontos focais (intersecções entre linhas dos terços) para dar foco ao rosto do objeto"
+    technique: "Uso de pontos focais (intersecções entre linhas dos terços) para dar foco ao rosto do objeto."
   },
   {
     file: "dupla expo ulisses.png",
     title: "Dupla Exposição",
     category: "dupla_exposicao",
     label: "Dupla Exposição",
-    technique: "Técnica de dupla exposição com fotografia no PhotoShop"
+    technique: "Técnica de dupla exposição com fotografia no PhotoShop."
   },
   {
     file: "espelhos1.jpg",
     title: "Espelhos e Paisagem 1",
     category: "espelhos",
     label: "Espelhos e paisagem",
-    technique: "Fotografia utilizando espelhos de diferentes formatos"
+    technique: "Fotografia utilizando espelhos de diferentes formatos."
   },
   {
     file: "espelhos2.jpg",
     title: "Espelhos e Paisagem 2",
     category: "espelhos",
     label: "Espelhos e paisagem",
-    technique: "Fotografia utilizando espelhos de diferentes formatos"
+    technique: "Fotografia utilizando espelhos de diferentes formatos."
   },
   {
     file: "espelhos3.jpg",
     title: "Espelhos e Paisagem 3",
     category: "espelhos",
     label: "Espelhos e paisagem",
-    technique: "Fotografia utilizando espelhos de diferentes formatos"
+    technique: "Fotografia utilizando espelhos de diferentes formatos."
   },
   {
     file: "lightpaint.jpg",
     title: "Light Paint",
     category: "lightpaint",
     label: "Light Paint",
-    technique: "Foto com obturador lento usando flash do celular, criando efeito de pintar com a luz"
+    technique: "Foto com obturador lento usando flash do celular, criando efeito de pintar com a luz."
   },
   {
     file: "colagem.png",
     title: "Fotocolagem",
     category: "fotocolagem",
     label: "Fotocolagem",
-    technique: "Edição em photoshop com foto centralizada"
+    technique: "Edição em photoshop com foto centralizada."
+  },
+  {
+    file: "produto1.jpg",
+    title: "Garrafa 1",
+    category: "produtos",
+    label: "Fotografia de Produtos",
+    technique: "Fotografia de um produto (garrafa) de diversos ângulos e enquadramentos."
+  },
+  {
+    file: "produto2.jpg",
+    title: "Garrafa 2",
+    category: "produtos",
+    label: "Fotografia de Produtos",
+    technique: "Fotografia de um produto (garrafa) de diversos ângulos e enquadramentos."
+  },
+  {
+    file: "produto3.jpg",
+    title: "Garrafa 3",
+    category: "produtos",
+    label: "Fotografia de Produtos",
+    technique: "Fotografia de um produto (garrafa) de diversos ângulos e enquadramentos."
+  },
+  {
+    file: "produto4.jpg",
+    title: "Garrafa 4",
+    category: "produtos",
+    label: "Fotografia de Produtos",
+    technique: "Fotografia de um produto (garrafa) de diversos ângulos e enquadramentos."
+  },
+  {
+    file: "produto5.jpg",
+    title: "Garrafa 5",
+    category: "produtos",
+    label: "Fotografia de Produtos",
+    technique: "Fotografia de um produto (garrafa) de diversos ângulos e enquadramentos."
+  },
+  {
+    file: "produto6.jpg",
+    title: "Garrafa 6",
+    category: "produtos",
+    label: "Fotografia de Produtos",
+    technique: "Fotografia de um produto (garrafa) de diversos ângulos e enquadramentos."
   }
 ];
 
